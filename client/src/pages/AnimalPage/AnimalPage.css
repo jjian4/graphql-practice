@@ -1,69 +1,65 @@
 .product-img {
-    width: 40%
+  width: 40%;
 }
 
 .text-container {
-    width: 40%;
-  }
-  
-  .text-container h1 { 
-    font-size: 1.25rem;
-    line-height: 2rem;
-  }
+  width: 40%;
+}
 
-  .star-container img {
-      width: 1rem
-  }
+.text-container h1 {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
 
-  .star-container {
-      display: flex;
-  }
+.star-container img {
+  width: 1rem;
+}
 
-  .star-container p {
-      color: rgb(33, 145, 193);
-      margin-top: 1rem;
-      margin-left: 0.5rem;
-  }
+.star-container {
+  display: flex;
+}
 
-  .about-container h4 {
-      font-size: 1.15rem;
-      font-weight: 700;
-  }
+.star-container p {
+  color: rgb(33, 145, 193);
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
 
-
+.about-container h4 {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
 
 .cart-container {
-    border-radius: 1rem;
-    width: 20%;
-    margin-left: 2rem;
-    padding: 1rem
+  border-radius: 1rem;
+  width: 20%;
+  margin-left: 2rem;
+  padding: 1rem;
 }
 
 .cart-container button {
-    width: 100%;
-    border: none;
-    background-color: #F2CB6A;
-    padding: 0.35rem 0;
-    font-size: 0.85rem;
-    margin: 0.25rem 0
+  width: 100%;
+  border: none;
+  background-color: #f2cb6a;
+  padding: 0.35rem 0;
+  font-size: 0.85rem;
+  margin: 0.25rem 0;
 }
 
 .price {
-    color: rgb(141, 6, 6);
-
+  color: rgb(141, 6, 6);
 }
 
 .delivery-time {
-    padding-bottom: 4rem;
+  padding-bottom: 4rem;
 }
 
 .buy-now-btn {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
-
 .rating-stock-container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }

@@ -4,7 +4,7 @@ const Query = {
   animal: (parent, args, { animals }) => {
     return animals.find((x) => x.slug === args.slug);
   },
-  categories: () => categories,
+  categories: (parent, args, { categories }) => categories,
   category: (parent, args, { categories }) => {
     return categories.find((x) => x.slug === args.slug);
   },
